@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
@@ -9,22 +8,25 @@ import Copyright from './components/Copyright';
 import Footer from './components/Footer';
 import Newsletter from './components/Newsletter';
 import Testimonials from './components/Testimonials';
+import Hero from './components/Hero';
+import CTA from './components/CTA';
+import FAQ from './components/FAQ.jsx';
 
 function App() {
   return (
-    <div>
+    <div className=' font-serif '>
       <Contact />
       <Navbar />
+      <Hero />
       <About />
-      <Articles />
       <Campaign />
-      <Copyright />
+      <Articles />
+      <Newsletter />
+      <Testimonials />
       <CTA />
       <FAQ />
       <Footer />
-      <Hero />
-      <Newsletter />
-      <Testimonials />
+      <Copyright />
     </div>
   );
 }
