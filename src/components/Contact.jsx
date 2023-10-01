@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 function Contact() {
   return (
-    <div className="bg-[#9F5FFE] h-7 flex font-light text-xs items-center justify-between py-1 px-2 sm:px-6 md:px-10 lg:px-16 xl:px-24">
+    <div className="bg-[#9F5FFE] h-7 flex font-light text-xs items-center justify-between py-1 px-8 sm:px-10 md:px-16 lg:px-32 xl:px-40">
       <div className="flex items-center text-white text-xs flex-shrink-0">
         <div className="mr-2">
           <BsFillTelephoneFill fill='white' size={10} />

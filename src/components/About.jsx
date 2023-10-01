@@ -4,9 +4,9 @@ import { AiFillCheckCircle } from 'react-icons/ai';
 
 function About() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2  mt-20  py-1 px-2  sm:px-6 md:px-10 lg:px-16 xl:px-24">
+    <div className="grid grid-cols-1 md:grid-cols-2  mt-20  py-1  px-8 sm:px-10 md:px-16 lg:px-32 xl:px-40">
       {/* Column 1 with image */}
-      <div className="p-20 sm:p-5 lg:p-20">
+      <div className="p-10 md:p-10 sm:p-5 lg:p-20">
         <img src={groupPicture} alt="About Us" className="w-full h-full object-contain " />
       </div>
 

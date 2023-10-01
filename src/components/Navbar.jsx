@@ -11,7 +11,7 @@ function Navbar() {
   }
 
   return (
-    <div className="bg-white h-16 flex items-center justify-between p-2 sm:p-4 md:p-6 lg:p-8 xl:p-10 px-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
+    <div className="bg-white h-16 flex items-center justify-between p-2 sm:p-4 md:p-6 lg:p-8 xl:p-10  px-8 sm:px-10 md:px-16 lg:px-32 xl:px-40">
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="w-6 h-8 mr-2" />
         <p className="text-black font-semibold text-sm">Donaty</p>
